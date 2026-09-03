@@ -18,6 +18,10 @@ data/
 *.onnx
 *.h5
 
+# 程序生成的输出图片
+week*/*.png
+output/
+
 # 系统
 .DS_Store
 Thumbs.db
