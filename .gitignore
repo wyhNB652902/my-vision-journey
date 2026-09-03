@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# 数据与模型（大文件不进 git）
+data/
+*.pth
+*.onnx
+*.h5
+
+# 系统
+.DS_Store
+Thumbs.db
